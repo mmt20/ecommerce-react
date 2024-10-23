@@ -1,0 +1,18 @@
+/* Slider.module.css */
+.carouselCaption {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.carouselCaption h3 {
+  color: #fff; /* White text color */
+  font-size: 2em; /* Increase font size */
+  margin-bottom: 10px;
+}
+
+.carouselCaption p {
+  color: #fff; /* White text color */
+  font-size: 1.2em; /* Increase font size */
+}
