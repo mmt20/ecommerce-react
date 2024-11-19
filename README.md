@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Full Stack E-Commerce Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend part of the full-stack e-commerce application, built using **React** and **Redux** for state management. The frontend communicates with the backend API to perform all necessary e-commerce actions such as displaying products, managing the cart, user authentication, and processing orders.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Product Display**: Display products, categories, and brands with filtering options.
+- **Shopping Cart**: Add/remove products, view total prices, apply discount codes, and proceed to checkout.
+- **User Authentication**: User registration, login, and JWT-based authentication for session management.
+- **Order Management**: View previous orders, check order status, and manage user details.
+- **Responsive UI**: Mobile-friendly design using CSS frameworks like React Bootstrap.
+- **State Management with Redux**: Manage the global application state, including authentication status, cart, and products.
 
-### `npm start`
+## Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js**: JavaScript library for building user interfaces.
+- **Redux**: State management for handling the app's global state.
+- **Formik**: Handling forms, especially for user authentication and checkout.
+- **React Bootstrap**: UI components for building responsive layouts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/mmt20/ecommerce-react
+   cd ecommerce-react
+   ```
 
-### `npm run build`
+2. Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Run the development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+## API Endpoints
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+For full details on API routes, request bodies, and responses, refer to the
+[Ecommerce Api.postman_collection](https://drive.google.com/file/d/1bdHiXN1F44D3X2B5lonyvPnWXbkMGpfM/view?usp=sharing) file. You can import this collection into Postman to explore, test, and interact with the API endpoints.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Mostafa Mohamed - [@MMTAHA22](https://x.com/MMTAHA22) - mmt202002@gmail.com
